@@ -1,0 +1,33 @@
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    height: 200vh;
+    width: 100vw;
+    /* Background wala part */
+    background-image: url(raigad2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #19140bb0;
+  
+    /* Center wala code */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg-img h1 {
+    color: #f6f6f6;
+    font-size: 50px;
+    font-family: "Cinzel Decorative", serif;
+  }
+  
